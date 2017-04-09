@@ -1,4 +1,4 @@
 Testing git command line commands
 Creating readme file
 Adding text file to repository
-
+Running diff command to see the output
