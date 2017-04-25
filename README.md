@@ -1,5 +1,9 @@
 # datascience
-The SemEval-2016 dataset was downloaded using their recommended python script for Natural Language Processing (NLP) task of Sentiment Analysis. The instructions can be downloaded from https://github.com/aritter/twitter_download. I had to comment line 36 uid = fields[1] in download_tweets_api.py. The raw downloaded dataset stats are:
+The SemEval-2016 dataset was downloaded using their recommended python script for Natural Language Processing (NLP) task of Sentiment Analysis. The instructions can be downloaded from https://github.com/aritter/twitter_download. I had to comment line 36 in download_tweets_api.py because script was crashing. 
+'''Python
+#uid = fields[1]
+'''
+The raw downloaded dataset stats are:
 
 Environment | Task | Point |  number of Tweets
 ------------|------|-------|--------------------
